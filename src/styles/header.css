@@ -1,0 +1,33 @@
+.header-grid {
+    background: white;
+    /* background: linear-gradient(45deg, white, white, skyblue, skyblue);
+    background-size: 400% 400%; */
+    /* animation: gradient 10s ease infinite; */
+    height: 10vh;
+    width: 100vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    width: 12rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
