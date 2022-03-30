@@ -1,5 +1,7 @@
 .header-grid {
     background: white;
+    position: fixed;
+    top: 0;
     /* background: linear-gradient(45deg, white, white, skyblue, skyblue);
     background-size: 400% 400%; */
     /* animation: gradient 10s ease infinite; */
@@ -13,11 +15,18 @@
 }
 
 .logo {
-    width: 12rem;
+    width: 4rem;
 }
 
 .logo:hover {
     cursor: pointer;
+}
+
+.menu-section-header {
+    color: white;
+    background: linear-gradient(to right, #89cff0, dodgerblue);
+    text-align: left;
+    padding-left: 1rem;
 }
 
 /* @keyframes gradient {

@@ -14,5 +14,5 @@ export const Logo = props => {
     ? undefined
     : `${spin} infinite 20s linear`;
 
-  return <Image animation={animation} src={logo} htmlWidth={70} {...props} />;
+  return <Image animation={animation} src={logo} {...props} />;
 };
